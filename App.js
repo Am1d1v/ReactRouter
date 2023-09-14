@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 
@@ -9,7 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>React Router</h1>
+        <Routes>
+          <Route path='/' element={<h1>Home</h1>} />   
+        </Routes>
       </div>
     </BrowserRouter>
   );
