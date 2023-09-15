@@ -5,9 +5,7 @@ const Home = () => {
 
     return(
         <>
-        <Menu />
         <h1>Home</h1>
-        <Outlet />
         </>
     )
 }
