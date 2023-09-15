@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.active {
+  color: white
+}
+
 a {
   color: #b4b4b4;
   font-size: 30px;
