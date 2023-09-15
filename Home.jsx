@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
+import Menu from "./Menu";
 
 const Home = () => {
 
     return(
         <>
+        <Menu />
         <h1>Home</h1>
-        <Link to='/About'>About</Link>
-        <br />
-        <Link to='/Contacts'>Contacts</Link>
+        <Outlet />
         </>
     )
 }
